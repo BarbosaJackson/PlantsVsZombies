@@ -3,13 +3,21 @@
  */
 public abstract class Plant {
 
-    private int health = 200;
+    private double health = 200;
 
     private int x;
     private int y;
+    private double damage;
 
     private GamePanel gp;
 
+
+    public Plant(GamePanel parent, int x, int y, double damage) {
+        this.x = x;
+        this.y = y;
+        gp = parent;
+        this.damage = damage;
+    }
 
     public Plant(GamePanel parent, int x, int y) {
         this.x = x;
@@ -17,14 +25,22 @@ public abstract class Plant {
         gp = parent;
     }
 
+    public void setDamage(double damage) {
+        this.damage = damage;
+    }
+
+    public double getDamage() {
+        return this.damage;
+    }
+
     public void stop() {
     }
 
-    public int getHealth() {
+    public double getHealth() {
         return health;
     }
 
-    public void setHealth(int health) {
+    public void setHealth(double health) {
         this.health = health;
     }
 

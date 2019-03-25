@@ -5,7 +5,7 @@ import javax.swing.*;
  */
 public class Zombie {
 
-    private int health = 1000;
+    private double health = 1000;
     private int speed = 1;
 
     private GamePanel gp;
@@ -72,11 +72,11 @@ public class Zombie {
         return z;
     }
 
-    public int getHealth() {
+    public double getHealth() {
         return health;
     }
 
-    public void setHealth(int health) {
+    public void setHealth(double health) {
         this.health = health;
     }
 

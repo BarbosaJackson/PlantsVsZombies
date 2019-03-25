@@ -8,36 +8,44 @@ public class Pea {
     private int posX;
     protected GamePanel gp;
     private int myLane;
+    private double damage;
 
-    public Pea(GamePanel parent, int lane, int startX) {
+    public Pea(GamePanel parent, int lane, int startX, double damage) {
         this.gp = parent;
         this.myLane = lane;
+        this.damage = damage;
         posX = startX;
     }
 
-    public void advance() {
+    public double getDamage() {
+        return damage;
+    }
+
+    public boolean advance() {
         Rectangle pRect = new Rectangle(posX, 130 + myLane * 120, 28, 28);
         for (int i = 0; i < gp.getLaneZombies().get(myLane).size(); i++) {
             Zombie z = gp.getLaneZombies().get(myLane).get(i);
             Rectangle zRect = new Rectangle(z.getPosX(), 109 + myLane * 120, 400, 120);
             if (pRect.intersects(zRect)) {
-                z.setHealth(z.getHealth() - 300);
-                boolean exit = false;
-                if (z.getHealth() < 0) {
+                System.out.println(z.getHealth());
+                z.setHealth(z.getHealth() - getDamage());
+                if (z.getHealth() <= 0) {
                     System.out.println("ZOMBIE DIED");
-
                     gp.getLaneZombies().get(myLane).remove(i);
                     GamePanel.setProgress(10);
-                    exit = true;
                 }
-                gp.getLaneZombies().get(myLane).remove(this);
-                if (exit) break;
+//                gp.getLaneZombies().get(myLane).remove(this);
+//                posX += 15;
+                gp.getLanePeas().get(myLane).remove(this);
+                return true;
+
             }
         }
         /*if(posX > 2000){
             gp.lanePeas.get(myLane).remove(this);
         }*/
         posX += 15;
+        return false;
     }
 
     public int getPosX() {
