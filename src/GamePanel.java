@@ -89,11 +89,6 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
             add(a, new Integer(0));
         }
 
-        //colliders[0].setPlant(new FreezePeashooter(this,0,0));
-/*
-        colliders[9].setPlant(new Peashooter(this,0,1));
-        laneZombies.get(1).add(new NormalZombie(this,1));*/
-
         activeSuns = new ArrayList<>();
 
         redrawTimer = new Timer(25, (ActionEvent e) -> {
@@ -115,14 +110,14 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
         zombieProducer = new Timer(7000, (ActionEvent e) -> {
             Random rnd = new Random();
             LevelData lvl = new LevelData();
-            String[] Level = lvl.LEVEL_CONTENT[Integer.parseInt(lvl.LEVEL_NUMBER) - 1];
             int[][] LevelValue = lvl.LEVEL_VALUE[Integer.parseInt(lvl.LEVEL_NUMBER) - 1];
             int l = rnd.nextInt(5);
             int t = rnd.nextInt(100);
             Zombie z = null;
             for (int i = 0; i < LevelValue.length; i++) {
                 if (t >= LevelValue[i][0] && t <= LevelValue[i][1]) {
-                    z = Zombie.getZombie(Level[i], GamePanel.this, l);
+                    z = StraregyZombies.values()[new Random().nextInt(123213217 % 100) % 2]
+                            .getChoiceZombie(GamePanel.this, l).choiceZombie();
                 }
             }
             laneZombies.get(l).add(z);

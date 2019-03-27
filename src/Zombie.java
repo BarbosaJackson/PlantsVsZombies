@@ -59,19 +59,6 @@ public class Zombie {
         slowInt = 1000;
     }
 
-    public static Zombie getZombie(String type, GamePanel parent, int lane) {
-        Zombie z = new Zombie(parent, lane);
-        switch (type) {
-            case "NormalZombie":
-                z = new NormalZombie(parent, lane);
-                break;
-            case "ConeHeadZombie":
-                z = new ConeHeadZombie(parent, lane);
-                break;
-        }
-        return z;
-    }
-
     public double getHealth() {
         return health;
     }
