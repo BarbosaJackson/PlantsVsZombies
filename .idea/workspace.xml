@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dc5d397-09b3-4108-83f3-9a4e2501e054" name="Default" comment="Reformatted code">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ChoiceZombie.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/StraregyZombies.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LEVEL_CONTENT.vbhv" afterPath="$PROJECT_DIR$/LEVEL_CONTENT.vbhv" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Collider.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Collider.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/ConeHeadZombie.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/ConeHeadZombie.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/FreezePea.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/FreezePea.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/FreezePeashooter.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/FreezePeashooter.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/GamePanel$PlantActionListener.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/GamePanel$PlantActionListener.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/GamePanel.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/GamePanel.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/GameWindow$PlantType.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/GameWindow$PlantType.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/GameWindow.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/LevelData.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/LevelData.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Menu$1.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Menu$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Menu.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Menu.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/NormalZombie.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/NormalZombie.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Pea.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Pea.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Peashooter.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Peashooter.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Plant.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Plant.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/PlantButton.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/PlantButton.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/PlantCard.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/PlantCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/SingletonBackground.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/SingletonBackground.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Sun.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Sun.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Sunflower.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Sunflower.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Zombie.class" afterPath="$PROJECT_DIR$/out/production/jPvZ/Zombie.class" />
-      <change beforePath="$PROJECT_DIR$/src/ConeHeadZombie.java" afterPath="$PROJECT_DIR$/src/ConeHeadZombie.java" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" afterPath="$PROJECT_DIR$/src/GamePanel.java" />
-      <change beforePath="$PROJECT_DIR$/src/NormalZombie.java" afterPath="$PROJECT_DIR$/src/NormalZombie.java" />
-      <change beforePath="$PROJECT_DIR$/src/Zombie.java" afterPath="$PROJECT_DIR$/src/Zombie.java" />
+      <change beforePath="$PROJECT_DIR$/src/StraregyZombies.java" afterPath="$PROJECT_DIR$/src/StrategyZombies.java" />
     </list>
     <ignored path="jPvZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +27,8 @@
       <file leaf-file-name="GamePanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GamePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+            <state relative-caret-position="252">
+              <caret line="118" column="88" lean-forward="true" selection-start-line="118" selection-start-column="88" selection-end-line="118" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +36,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StraregyZombies.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StraregyZombies.java">
+      <file leaf-file-name="StrategyZombies.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StrategyZombies.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="37" />
@@ -591,7 +563,7 @@
       <workItem from="1551287013946" duration="1647000" />
       <workItem from="1553012489786" duration="27000" />
       <workItem from="1553539306230" duration="2134000" />
-      <workItem from="1553706750255" duration="2071000" />
+      <workItem from="1553706750255" duration="2346000" />
     </task>
     <task id="LOCAL-00001" summary="Reformatted code">
       <created>1545395229844</created>
@@ -604,11 +576,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45347000" />
+    <option name="totallyTimeSpent" value="45622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1373" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -619,7 +590,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3227513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3227513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -931,7 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StraregyZombies.java">
+    <entry file="file://$PROJECT_DIR$/src/StrategyZombies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="37" />
@@ -946,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GamePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+        <state relative-caret-position="252">
+          <caret line="118" column="88" lean-forward="true" selection-start-line="118" selection-start-column="88" selection-end-line="118" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

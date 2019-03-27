@@ -116,8 +116,7 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
             Zombie z = null;
             for (int i = 0; i < LevelValue.length; i++) {
                 if (t >= LevelValue[i][0] && t <= LevelValue[i][1]) {
-                    z = StraregyZombies.values()[new Random().nextInt(123213217 % 100) % 2]
-                            .getChoiceZombie(GamePanel.this, l).choiceZombie();
+                    z = StrategyZombies.values()[new Random().nextInt(123213217 % (StrategyZombies.values().length * 50)) % StrategyZombies.values().length].getChoiceZombie(GamePanel.this, l).choiceZombie();
                 }
             }
             laneZombies.get(l).add(z);

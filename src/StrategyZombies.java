@@ -1,4 +1,4 @@
-public enum StraregyZombies {
+public enum StrategyZombies {
 
     NORMAL {
         public ChoiceZombie getChoiceZombie(GamePanel parent, int lane){
