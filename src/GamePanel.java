@@ -55,7 +55,7 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
         this.sunScoreboard = sunScoreboard;
         setSunScore(150);  //pool avalie
 
-        bgImage = new ImageIcon(this.getClass().getResource("images/mainBG.png")).getImage();
+        bgImage = new SingletonBackground().getInstance().getImage();
 
         peashooterImage = new ImageIcon(this.getClass().getResource("images/plants/peashooter.gif")).getImage();
         freezePeashooterImage = new ImageIcon(this.getClass().getResource("images/plants/freezepeashooter.gif")).getImage();
@@ -112,7 +112,7 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
         });
         sunProducer.start();
 
-        zombieProducer = new Timer(new Random().nextInt(10000) + 1000, (ActionEvent e) -> {
+        zombieProducer = new Timer(7000, (ActionEvent e) -> {
             Random rnd = new Random();
             LevelData lvl = new LevelData();
             String[] Level = lvl.LEVEL_CONTENT[Integer.parseInt(lvl.LEVEL_NUMBER) - 1];
