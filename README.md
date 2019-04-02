@@ -47,3 +47,7 @@ Para rodar os projetos basta fazer o clone dos repositórios, abrir na IDE  de s
     1. [Iterator.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/Iterator.java)
     1. [ZombiesRepository.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/ZombiesRepository.java)
     1. [GamePanel.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/GamePanel.java#L130)
+
+# Ajustes
+
+A planta de gelo estava atirando para o lado inverso, dito isso, ajustei o código para o tiro sair na direção correta, a alteração foi feita em [FreezePea.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/FreezePea.java#L32)
