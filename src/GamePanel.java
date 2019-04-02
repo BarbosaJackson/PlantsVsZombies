@@ -127,7 +127,9 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
 
     private void advance() {
         for (int i = 0; i < 5; i++) {
-            for (Zombie z : laneZombies.get(i)) {
+            Iterator<Zombie> it = new ZombiesRepository(laneZombies.get(i)).getInterator();
+            while(it.hasNext()) {
+                Zombie z = it.next();
                 z.advance();
             }
 
@@ -185,16 +187,6 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
             }
 
         }
-
-        //if(!"".equals(activePlantingBrush)){
-        //System.out.println(activePlantingBrush);
-            /*if(activePlantingBrush == GameWindow.PlantType.Sunflower) {
-                g.drawImage(sunflowerImage,mouseX,mouseY,null);
-            }*/
-
-        //}
-
-
     }
 
     private class PlantActionListener implements ActionListener {
