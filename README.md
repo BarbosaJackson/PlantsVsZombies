@@ -31,3 +31,19 @@ Para rodar os projetos basta fazer o clone dos repositórios, abrir na IDE  de s
      Aplicado em:
         - Para executar o movimento de todos os zombies em suas respectivas posições era feito um for rodando posição a posição, para substituir isso foi aplicado o padrão de projeto **ITERATOR** e com ele o loop é feito.
         - [GamePanel.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/GamePanel.java#L130)
+
+### Classes e métodos afetados
+  - Strategy
+    1. [ChoiceZombie.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/ChoiceZombie.java)
+    1. [StrategyZombies.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/StrategyZombies.java)
+    1. [NormalZombie.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/NormalZombie.java)
+    1. [ConeHeadZombie.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/ConeHeadZombie.java)
+    1. [GamePanel.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/GamePanel.java#L119)
+  - Singleton
+    1. [SingletonBackground.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/SingletonBackground.java)
+    1. [GamePanel.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/GamePanel.java#L58)
+  - Iterator
+    1. [ContainerIterator.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/ContainerIterator.java)
+    1. [Iterator.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/Iterator.java)
+    1. [ZombiesRepository.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/ZombiesRepository.java)
+    1. [GamePanel.java](https://github.com/BarbosaJackson/PlantsVsZombies/blob/master/src/GamePanel.java#L130)
